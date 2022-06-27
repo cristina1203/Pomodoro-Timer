@@ -1,5 +1,6 @@
 # Pomodoro-Timer
 first time using vanilla javascript, html, and css on a project (May 2022)
+
 Features: 
 - start, pause, reset buttons
 - ability to time work sessions
