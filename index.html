@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+    <meta charset = "UTF-8">
+    <meta name = "viewport" content = "width-device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href = "style.css">
+    <h1>
+        Pomodoro Timer
+        <h2>
+            Work for 25 mins, break for 5 mins. After 4 cycles, break 15-30 mins.
+        </h2>
+    </h1>
+</head>
+<body>
+     <div id = "container">
+        <p id = "work" class = "label">Work</p>
+        <p id = "break" class = "label">Break</p>
+        <p id = "cycles" class = "label">Cycles</p>
+        
+        <!--Work Timer-->
+        <div id = "work-timer" class = "timer">
+            <p id = "w_min">25</p><p id = "scw">:</p><p id = "w_sec">00</p>
+        </div>
+        
+        <p id = "counter" class = "timer">0</p>
+
+        <!--Break Timer-->
+        <div id = "break-timer" class = "timer">
+            <p id = "b_min">5</p><p id = "scb">:</p><p id = "b_sec">00</p>
+        </div>
+        <button id = "start" class = "btn">Start</button>
+        <button id = "stop"  class = "btn">Pause</button>
+        <button id = "reset"  class = "btn">Reset</button>
+    
+    </div>
+    <script src = "main.js"></script>
+</body>
+</html>
